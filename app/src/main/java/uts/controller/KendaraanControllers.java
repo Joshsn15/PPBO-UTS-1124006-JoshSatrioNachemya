@@ -45,7 +45,6 @@ public class KendaraanControllers {
     // Pesawat
     public void addKendaraan(String isTempur, String nama, int kapasitasOrang,int jumlahRoda) {
         boolean tempur = isTempur.equalsIgnoreCase("YES") ? true : false;
-
         Pesawat pesawat = new Pesawat(BahanBakar.AVTUR, kapasitasOrang, nama, kapasitasOrang, tempur, jumlahRoda);
         this.listKendaraan.add(pesawat);
     }

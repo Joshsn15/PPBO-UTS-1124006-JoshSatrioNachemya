@@ -89,6 +89,6 @@ public class KendaraanView {
     }
 
     private void handleSortKendaraan() {
-        
+        // Collections.sort(KendaraanControllers.getListKendaraan());    
     }
 }
